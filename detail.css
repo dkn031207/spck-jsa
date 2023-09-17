@@ -1,0 +1,38 @@
+.intro_box {
+  border: 5px solid rgba(87, 77, 77, 0.493);
+  border-radius: 20px;
+  width: 700px;
+  height: 450px;
+
+  background-color: #ffffff;
+  
+  margin-left: 350px;
+  margin-top: 100px;
+
+}
+
+#intro_img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 20px;
+  border: 3px solid rgba(87, 77, 77, 0.493);
+  margin-left: 20px;
+
+}
+#detail{
+  margin-left: 30px;
+}
+#name{
+  margin-left: 200px;
+  font-style: oblique;
+}
+#format{
+  display: flex;
+}
+
+body {
+  background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470');
+  background-size: cover;
+}
