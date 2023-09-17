@@ -1,19 +1,21 @@
-*{
-    margin:0;
-    padding:0;
-    border:none;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
     font-family: 'Open Sans', sans-serif;
 }
+
 body {
     overflow: hidden;
     background: url('https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149007819.jpg');
     background-size: cover;
 }
+
 .to {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: minmax(100px,auto);
-    margin-top:60px ;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    margin-top: 60px;
 }
 
 .form {
@@ -31,10 +33,12 @@ body {
     background-color: white;
     margin-left: -150px;
 }
+
 h2 {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
 i.fab.fa-app-store-ios {
     display: block;
     margin-bottom: 50px;
@@ -47,13 +51,15 @@ label {
     font-weight: lighter;
 
 }
-input{
+
+input {
     display: block;
     border-bottom: 2px solid #00BCD4;
     margin-top: 6px;
     margin-bottom: 10px;
     outline-style: none;
 }
+
 input[type="text"] {
     padding: 5px;
     width: 70%;
@@ -69,22 +75,44 @@ input#submit {
     cursor: pointer;
     background: linear-gradient(to right, #fc00ff, #00dbde);
 }
-input#submit:hover{
 
-    background: linear-gradient(to right, #fc466b, #3f5efb); 
+input#submit:hover {
+
+    background: linear-gradient(to right, #fc466b, #3f5efb);
 }
-.logo{
+
+.logo {
     width: 50px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
     object-fit: cover;
-    margin-left: 100px;
+
 }
-.len{
+
+.len {
     width: 100px;
- 
+
     margin-left: -200px;
 }
-.hinh{
+
+.hinh {
     display: flex;
+}
+
+#btn-signup {
+    width: 300px;
+    height: 45px;
+    margin: 25px;
+    border-radius: 10px;
+    background-color: #d0efef;
+    color: #090808;
+}
+
+#btn-login {
+    width: 300px;
+    height: 45px;
+    margin: 25px;
+    border-radius: 10px;
+    background-color: #d0efef;
+    color: black;
 }
