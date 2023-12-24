@@ -35,10 +35,12 @@ document.getElementById('btn-login')?.addEventListener('click', function (event)
             if (loginPassword.value === users[i].password) {
                 localStorage.setItem("isLogin", 1);
                 window.location.href = "index.html"
-            } else {
-                alert('Password khong chinh xac!')
             }
-            window.location.href = "login.html"
+            else {
+                alert('Password khong chinh xac!')
+                window.location.href = "login.html"
+            }
+
         }
     }
 

@@ -3,58 +3,66 @@ const products = [
 
 
     {
-        image: "https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/348239722_962543861548406_8031736498459030533_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5614bc&_nc_ohc=OdDv58qJWkoAX9NfECr&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfDW4d_Z4dkX9gwljnSzHI_JX5zJCf7C78Y9XecMFw68NQ&oe=65019671",
+        image: "https://mcdonalds.vn/uploads/2018/mccafe/icedlatte.png",
         name: "Chậu hoa lưu ly",
-        price: "25.000đ"
+        price: "25.000đ",
+        detail: "Chậu hoa len rất thích hợp để trung bày trên bàn học và bàn làm việc cũng như là một món quà rất đẹp và tinh tế",
     },
 
     {
-        image: "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/355881945_136188352820209_370721710235478682_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5614bc&_nc_ohc=rMjWZ2yGDMEAX8MhZ-4&_nc_ht=scontent.fsgn5-9.fna&oh=00_AfDxt7h6N5v9G7HfQuX78kNnL65-EEPzUq8oDw2MQHWamA&oe=6501D66D",
+        image: "https://www.awrestaurants.co.id/assets/images/new-menus/Ice%20Choco.png",
         name: "Đồ kẹp tóc mèo",
-        price: "18.000đ"
+        price: "18.000đ",
+        detail: "Một chiếc kẹp tóc cực đẹp cho cắc nàng, thể hiện rõ độ dễ thuong qua hình mèo nhỏ nhắn cute.",
     },
 
     {
-        image: "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/356051794_136188316153546_8317784307749451554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5614bc&_nc_ohc=rg8x6D0W1A4AX9_Tyis&_nc_ht=scontent.fsgn5-5.fna&oh=00_AfA6obbGHv28Pjyqg3hI5F-glz2K-gTYu3cFlkh53CUebQ&oe=65027EB8",
+        image: "https://th.bing.com/th/id/R.f280fbc204173cf766d2e29aa39aaa16?rik=LMrGZq1cProZyw&pid=ImgRaw&r=0",
         name: "Trâu len",
         price: "25.000đ",
+        detail: "Vật trưng bày thể hiêmnj sự mạnh mẽ nhưng cũng không kém phần đáng yêu , là một món quà và vật trung bày tuyệt vời.",
     },
 
     {
-        image: "https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/355643574_136186346153743_2043737170287463715_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5614bc&_nc_ohc=UNA9JvPqEvsAX_PS3M4&_nc_ht=scontent.fsgn5-14.fna&oh=00_AfD8TpM_PTZuq-j9Y7B0BqOw3nsijJfsEU7NqWG_CBRYPQ&oe=65025378",
-        name: "Thỏ len",
-        price: "25.000đ",
-    },
-
-    {
-        image: "https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/356130397_136188329486878_1826598413732415512_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5614bc&_nc_ohc=H-02-1JnGEsAX937WGU&_nc_ht=scontent.fsgn5-3.fna&oh=00_AfC1Gu8RqPVSHJpzeE-hG4Jl9a2hHmvDXsc6Z_7v-Lnr5A&oe=6501823F",
-        name: "Kẹp tóc dâu",
-        price: "18.000đ",
-    },
-
-    {
-        image: "https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/355901401_136188362820208_6056722163670181481_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5614bc&_nc_ohc=mVDjZFsts6MAX9s9JmT&_nc_ht=scontent.fsgn5-3.fna&oh=00_AfBXA-mT3tbjHaK2HQFK_tjmH7Bd6Ic2jJgy1d-PEx_ncw&oe=6502E198",
-        name: "kẹp tóc chim cách cụt",
-        price: "18.000đ",
-    },
-
-    {
-        image: "https://scontent.fsgn5-13.fna.fbcdn.net/v/t39.30808-6/357720420_144950358610675_2343093495940397905_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5614bc&_nc_ohc=jyEwHeXbvXMAX9iTWkH&_nc_ht=scontent.fsgn5-13.fna&oh=00_AfB6mG6jDhBgIC2OgTwKEd9HofI2tiNqJ58EjUsYhYLrsg&oe=65024AAC",
-        name: "Móc khóa cua",
-        price: "30.000đ"
-
-    },
-
-
-    {
-        image: "https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-6/359810920_148471591591885_5156075647404144214_n.jpg?stp=dst-jpg_s960x960&_nc_cat=108&ccb=1-7&_nc_sid=5614bc&_nc_ohc=SBssKdoG6VMAX9wAaE8&_nc_ht=scontent.fsgn5-6.fna&oh=00_AfDFnTWb7OV7h3_SEyOw7IvnkzdLt5bcGNFKocIT5qBwgw&oe=65028FF4",
-        name: "Móc khóa cỏ bốn lá",
+        image: "https://th.bing.com/th/id/OIP.4FipDzpz2Ki2vLHn0jwjBwAAAA?w=422&h=422&rs=1&pid=ImgDetMain",
+        name: "Cold brew",
         price: "30.000đ",
+        detail: "Một chiếc móc khóa dễ thương với những đường móc chắc chắn và phần mắt đáng yêu cùng với các họa tiết nhỏ cùng màu vô cùng đặt biệt thể hiện rõ sự đặc biệt của chiếc móc khóa.",
     },
 
- 
-]
+    {
+        image: "https://th.bing.com/th/id/OIP.nXLFkAcslhTJoyNT7mo8KAHaHa?rs=1&pid=ImgDetMain",
+        name: "Trà oolong",
+        price: "25.000đ",
+        detail: "Một vật trưng bày đáng yêu với độ phồng và phần những đường móc cực kì tinh xảo, rất thích hợp để trưng trong phòng trên bàn làm việch hay làm quà tặng cực đáng yêu.",
+    },
 
+    {
+        image: "https://th.bing.com/th/id/R.d13ff393e2396963dd8605928d2be76a?rik=quh3jxQAEdtY%2bw&riu=http%3a%2f%2fmedia-cache-ec0.pinimg.com%2f736x%2fa9%2fe2%2f89%2fa9e289f43cfce632d70161ab0d64735b.jpg&ehk=IGC0lbqoXW6owUr%2b4%2fp6POu96%2betGP1VdQmwQHp4%2fBY%3d&risl=&pid=ImgRaw&r=0",
+        name: "Trà đào",
+        price: "18.000đ",
+        detail: "Một chiếc kẹp tóc thể hiện sự ngot ngào của các nằng với nét độc đáo từ quả dâu.",
+    },
+
+    {
+        image: "https://th.bing.com/th/id/OIP.uVoTFMCvQcvNveLrk0eVrgHaHa?rs=1&pid=ImgDetMain",
+        name: "Trà vải",
+        price: "18.000đ",
+        detail: "Một chiếc kẹp tóc vô cùng cute cho các bạn nữ với thiết kế nhỏ nhắn xinh xắn đặc biết nổi bật hình con chim cánh cụt vô cùng tinh tế.",
+    },
+
+
+
+
+    {
+        image: "https://th.bing.com/th/id/OIP.Hd-ZkyfUEVYMx8xU6wM6IgHaHa?rs=1&pid=ImgDetMain",
+        name: "Trà dâu",
+        price: "30.000đ",
+        detail: "Sản phẩm đem lại may mắn cho mọi nhà, với thiết kế dễ thương cùng những đường móc độc đáo chỉn chu.",
+    },
+
+
+]
 function showMessage() {
     var cf_dathang = confirm("Xác nhận đặt hàng!")
     if (cf_dathang == true) {
@@ -65,7 +73,7 @@ function showMessage() {
 }
 var index = 0;
 var slides = document.getElementsByClassName("picture")
-function showSlideAuto() { //slideshow banner
+function showSlideAuto() { 
     setInterval(function () {
         index++;
         for (var i = 0; i < slides.length; i++) {
