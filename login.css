@@ -1,115 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
+body {
+    background-image: url("https://wallpapertag.com/wallpaper/full/c/d/e/339760-coffee-background-2880x1800-htc.jpg");
+    background-size: cover;
+    background-color: #00000078;
+    background-blend-mode: multiply;
 }
 
-
-
-.to {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: minmax(100px, auto);
-    margin-top: 60px;
+img {
+    width: 100%;
 }
-
-.form {
-    border: 1px solid #80808000;
-    grid-column: 6/9;
-    grid-row: 3;
-    height: 470px;
-    width: 650px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    border-radius: 15px;
-    box-shadow: 0px 0px 14px 0px grey;
-    background-color: white;
-    margin-left: -150px;
-    margin-bottom: 100px;
-}
-
-h2 {
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-i.fab.fa-app-store-ios {
-    display: block;
-    margin-bottom: 50px;
-    font-size: 28px;
-}
-
-label {
-    margin-left: -100px;
-    display: block;
-    font-weight: lighter;
-
-}
-
-input {
-    display: block;
-    border-bottom: 2px solid #00BCD4;
-    margin-top: 6px;
-    margin-bottom: 10px;
-    outline-style: none;
-}
-
-input {
-    padding: 5px;
-    width: 70%;
-}
-
-input#submit {
-    padding: 7px;
-    width: 50%;
-    border-radius: 10px;
-    border: none;
-    position: absolute;
-    bottom: 10px;
-    cursor: pointer;
-    background: linear-gradient(to right, #fc00ff, #00dbde);
-}
-
-input#submit:hover {
-
-    background: linear-gradient(to right, #fc466b, #3f5efb);
-}
-
-.logo {
-    width: 50px;
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    object-fit: cover;
-
-}
-
-.len {
-    width: 100px;
-
-    margin-left: -200px;
-}
-
-.hinh {
-    display: flex;
-}
-
-#btn-signup {
-    width: 300px;
-    height: 45px;
-    margin: 25px;
-    border-radius: 10px;
-    background-color: #d0efef;
-    color: #090808;
-}
-
-#btn-login {
-    width: 300px;
-    height: 45px;
-    margin: 25px;
-    border-radius: 10px;
-    background-color: #d0efef;
-   color: #090808;
+button{
+    width: 400px;
+    height: 60px;
+    margin-left: 550px;
 }

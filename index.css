@@ -1,3 +1,10 @@
+body {
+  background-image: url("https://wallpapertag.com/wallpaper/full/c/d/e/339760-coffee-background-2880x1800-htc.jpg");
+  background-size: cover;
+  background-color: #00000078;
+  background-blend-mode: multiply;
+}
+
 nav {
   background-color: #333;
   display: flex;
@@ -6,7 +13,7 @@ nav {
   align-items: center;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -16,16 +23,17 @@ ul {
   align-items: center;
 }
 
-h1 {
+nav h1 {
   color: white;
   font-style: italic;
-  margin-right: 30px;
   font-weight: 100;
   font-size: 25px;
-  margin-left: 800px;
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 20px;
 }
 
-li {
+nav ul li {
   float: left;
 }
 
@@ -111,10 +119,26 @@ li a:hover {
   height: 72px;
 }
 
+h3 {
+  font-size: 40px;
+  font-style: oblique;
+  margin-left: 500px;
+  color: #ffffff;
+
+}
+h1 {
+  font-size: 40px;
+  font-style: oblique;
+  margin-left: 450px;
+  color: #ffffff;
+
+}
 h4 {
   font-size: 40px;
   font-style: oblique;
-  margin-left: 570px;
+  margin-left: 540px;
+  color: #ffffff;
+
 }
 
 .gioithieu {
@@ -162,3 +186,9 @@ h4 {
   font-size: 50px;
 }
 
+
+h3 {
+  font-size: 40px;
+  font-style: oblique;
+  margin-left: 360px;
+}

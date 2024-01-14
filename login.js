@@ -1,48 +1,47 @@
-let userNow = {
-    id: 0,
-    userName: '',
-    password: ''
-}
 
-document.getElementById("btn-signup")?.addEventListener('click', function (event) {
-    event.preventDefault();
-    let users = JSON.parse(localStorage.getItem('users')) ?? []
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-    let registerUsername = document.getElementById('registerUsername')
-    let registerPassword = document.getElementById('registerPassword')
+// Your web app's Firebase configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyAJAUxpxM7wV3rO9g9uUAxYIZsfTMXSduQ",
+    authDomain: "spck-ef531.firebaseapp.com",
+    projectId: "spck-ef531",
+    storageBucket: "spck-ef531.appspot.com",
+    messagingSenderId: "593821099854",
+    appId: "1:593821099854:web:5e9b6a79046a940af1a01f"
+};
 
-    let newuser = {
-        id: users.length,
-        userName: registerUsername.value,
-        password: registerPassword.value
-    }
-    users.push(newuser)
-
-    localStorage.setItem('users', JSON.stringify(users))
-    alert('Đăng kí thành công')
-    window.location.href = "login.html"
-})
-
-document.getElementById('btn-login')?.addEventListener('click', function (event) {
-    event.preventDefault();
-    let loginName = document.getElementById('loginName')
-    let loginPassword = document.getElementById('loginPassword')
-
-    let users = JSON.parse(localStorage.getItem('users')) ?? []
-
-    for (var i = 0; i < users.length; i++) {
-        if (loginName.value === users[i].userName) {
-            if (loginPassword.value === users[i].password) {
-                localStorage.setItem("isLogin", 1);
-                window.location.href = "index.html"
-            }
-            else {
-                alert('Password khong chinh xac!')
-                window.location.href = "login.html"
-            }
-
-        }
-    }
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const provider = new GoogleAuthProvider();
+const loginbtn = document.getElementById("login")
+loginbtn.addEventListener("click", () => {
+    signInWithPopup(auth, provider)
+        .then((result) => {
+            // This gives you a Google Access Token. You can use it to access the Google API.
+            const credential = GoogleAuthProvider.credentialFromResult(result);
+            const token = credential.accessToken;
+            // The signed-in user info.
+            const user = result.user;
+            localStorage.setItem("user", JSON.stringify(user))
+            window.location.href = "/"
+            // IdP data available using getAdditionalUserInfo(result)
+            // ...
+        }).catch((error) => {
+            // Handle Errors here.
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            // The email of the user's account used.
+            const email = error.customData.email;
+            // The AuthCredential type that was used.
+            const credential = GoogleAuthProvider.credentialFromError(error);
+            // ...
+        });
 
 })
 

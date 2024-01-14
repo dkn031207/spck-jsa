@@ -1,3 +1,10 @@
+body{
+  background-image: url("https://wallpapertag.com/wallpaper/full/c/d/e/339760-coffee-background-2880x1800-htc.jpg");
+  background-size: cover;
+  background-color: #00000078 ;
+  background-blend-mode: multiply;
+}
+
 .intro_box {
   border: 5px solid rgba(87, 77, 77, 0.493);
   border-radius: 20px;
@@ -51,4 +58,9 @@ button{
   margin-left: 100px;
   font-style: inherit;
   font-size: 30px;
+}
+
+#sl{
+  margin-left: 150px;
+  
 }

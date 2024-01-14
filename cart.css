@@ -1,0 +1,88 @@
+body {
+    background-image: url("https://wallpapertag.com/wallpaper/full/c/d/e/339760-coffee-background-2880x1800-htc.jpg");
+    background-size: cover;
+    background-color: #00000078;
+    background-blend-mode: multiply;
+  }
+nav {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 25px;
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+}
+
+#cart-item {
+    border: 5px solid rgb(10, 8, 8);
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    background-color: #fff8f880;
+    text-align: center;
+    margin: 60px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#total{
+    color: white;
+    margin-left: 500px;
+    font-size: 50px;
+}
+#pay{
+    margin-left: 600px;
+    width: 280px;
+    height: 55px;
+    font-size:  50px; 
+}
+#cart{
+    display: flex;
+}

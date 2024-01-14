@@ -1,66 +1,66 @@
 const products = [
-
-
-
     {
-        image: "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/347124190_2448977455268601_8517535409725497763_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5614bc&_nc_ohc=MrcKY-BcGHoAX9Xt8Q3&_nc_oc=AQnD0XFGlpnByEwCN4XJjgkHfRnK1D9DSfUXvDnLbQBMQXd6w13T3nf1rGB_pHhohYw&_nc_ht=scontent.fsgn5-9.fna&oh=00_AfD6qAUDmKAGfU2z868zy2Ul2MH_YC5FFeN80NgA7nwYTw&oe=6528611F",
-        name: "Chậu hoa lưu ly",
-        price: "25.000đ",
-        detail: "Chậu hoa len rất thích hợp để trung bày trên bàn học và bàn làm việc cũng như là một món quà rất đẹp và tinh tế",
+        image: "https://mcdonalds.vn/uploads/2018/mccafe/icedlatte.png",
+        name: "Cà phê sữa",
+        price: "20.000đ",
+        detail: "Hương vị cà phê đậm đà hòa quyện cùng sữa thơm béo sẽ cho thực khách trải nghiệm tuyệt vời.",
     },
 
     {
-        image: "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/355881945_136188352820209_370721710235478682_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5614bc&_nc_ohc=Z8AsZq4OCQYAX-h4U0g&_nc_ht=scontent.fsgn5-9.fna&oh=00_AfDbMUup16kaHbsZTR6wiShUqerQPJ-j_MHWSyS8Kde1kQ&oe=6529636D",
-        name: "Đồ kẹp tóc mèo",
+        image: "https://www.awrestaurants.co.id/assets/images/new-menus/Ice%20Choco.png",
+        name: "Cà phê đen",
+        price: "16.000đ",
+        detail: "Đậm đà vị cà phê nguyên chất cùng hương thơm tuyệt vời của hạt cà phê hảo hạng đậm đà tới giọt cuối cùng.",
+    },
+
+    {
+        image: "https://th.bing.com/th/id/R.f280fbc204173cf766d2e29aa39aaa16?rik=LMrGZq1cProZyw&pid=ImgRaw&r=0",
+        name: "Bạc xỉu",
+        price: "20.000đ",
+        detail: "Hương vị cà phê đặc trưng cùng với hương sữa ngọt ngào sẽ đưa đến trải nghiệm không thể quên.",
+    },
+
+    {
+        image: "https://th.bing.com/th/id/OIP.4FipDzpz2Ki2vLHn0jwjBwAAAA?w=422&h=422&rs=1&pid=ImgDetMain",
+        name: "Cold brew",
         price: "18.000đ",
-        detail: "Một chiếc kẹp tóc cực đẹp cho cắc nàng, thể hiện rõ độ dễ thuong qua hình mèo nhỏ nhắn cute.",
+        detail: "Đậm đà nhưng nhẹ nhàng cho các tín đồ không thích quá đắng hay ngọt.",
     },
 
     {
-        image: "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/356051794_136188316153546_8317784307749451554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5614bc&_nc_ohc=z4fyXrRgdgcAX-Oxlfj&_nc_ht=scontent.fsgn5-5.fna&oh=00_AfBTz5m_yFDypw1F0bg2VaAlvvx6jmGvkEd1xYKk1tJibQ&oe=65281178",
-        name: "Trâu len",
+        image: "https://th.bing.com/th/id/OIP.nXLFkAcslhTJoyNT7mo8KAHaHa?rs=1&pid=ImgDetMain",
+        name: "Trà oolong",
         price: "25.000đ",
-        detail: "Vật trưng bày thể hiêmnj sự mạnh mẽ nhưng cũng không kém phần đáng yêu , là một món quà và vật trung bày tuyệt vời.",
+        detail: "Hương vị từ lá trà oolong nguyên chất hòa quyện với công thức trà bí truyền sẽ đem lại một cảm giác mát mẻ và dịu nhẹ lôi cuốn.",
     },
 
     {
-        image: "https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/355643574_136186346153743_2043737170287463715_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5614bc&_nc_ohc=Va2iT38hw6YAX9B9KqQ&_nc_ht=scontent.fsgn5-14.fna&oh=00_AfC1NmObN344DDDkT-AjwRfhbg7rgBgvIDY9_HtN9_Mptw&oe=6527E638",
-        name: "Thỏ len",
+        image: "https://th.bing.com/th/id/R.d13ff393e2396963dd8605928d2be76a?rik=quh3jxQAEdtY%2bw&riu=http%3a%2f%2fmedia-cache-ec0.pinimg.com%2f736x%2fa9%2fe2%2f89%2fa9e289f43cfce632d70161ab0d64735b.jpg&ehk=IGC0lbqoXW6owUr%2b4%2fp6POu96%2betGP1VdQmwQHp4%2fBY%3d&risl=&pid=ImgRaw&r=0",
+        name: "Trà đào",
+        price: "18.000đ",
+        detail: "Hương trà đào thơm ngọt cùng một chút hương thơm từ trà, một thức uống dịu nhẹ cho mọi lứa tuổi.",
+    },
+
+    {
+        image: "https://th.bing.com/th/id/OIP.uVoTFMCvQcvNveLrk0eVrgHaHa?rs=1&pid=ImgDetMain",
+        name: "Trà vải",
+        price: "18.000đ",
+        detail: "Vị thơm không thể chối từ từ trái vải chín ngon ngọt kết hợp cùng trà tinh khiết đứa đến một trải nghiệm ngọt ngào nhưng đầy mát mẻ.",
+    },
+
+
+
+
+    {
+        image: "https://th.bing.com/th/id/OIP.Hd-ZkyfUEVYMx8xU6wM6IgHaHa?rs=1&pid=ImgDetMain",
+        name: "Trà dâu",
         price: "25.000đ",
-        detail: "Một vật trưng bày đáng yêu với độ phồng và phần những đường móc cực kì tinh xảo, rất thích hợp để trưng trong phòng trên bàn làm việch hay làm quà tặng cực đáng yêu.",
-    },
-
-    {
-        image: "https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/356130397_136188329486878_1826598413732415512_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5614bc&_nc_ohc=oF33RrZJt6wAX91f73M&_nc_ht=scontent.fsgn5-3.fna&oh=00_AfDktbDetxbH1nLsv1MeQwiSAg6RS9jIVOXPYrK55yHNtQ&oe=65290F3F",
-        name: "Kẹp tóc dâu",
-        price: "18.000đ",
-        detail: "Một chiếc kẹp tóc thể hiện sự ngot ngào của các nằng với nét độc đáo từ quả dâu.",
-    },
-
-    {
-        image: "https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/355901401_136188362820208_6056722163670181481_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5614bc&_nc_ohc=eqCIUD1iOLUAX9JtO8e&_nc_ht=scontent.fsgn5-3.fna&oh=00_AfCQA8pePfWBjQpQIkWVyDxpvtbcq8pJuRhCqbEEaxnCmw&oe=65287458",
-        name: "kẹp tóc chim cách cụt",
-        price: "18.000đ",
-        detail: "Một chiếc kẹp tóc vô cùng cute cho các bạn nữ với thiết kế nhỏ nhắn xinh xắn đặc biết nổi bật hình con chim cánh cụt vô cùng tinh tế.",
-    },
-
-    {
-        image: "https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/357720420_144950358610675_2343093495940397905_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5614bc&_nc_ohc=bQD9cRlV2Z0AX8Hf-VP&_nc_ht=scontent.fsgn5-14.fna&oh=00_AfB3CW7JFNiHhlCtubaErYKm0wac-KBRkbQyBWESTkKbXg&oe=6527DD6C",
-        name: "Móc khóa cua",
-        price: "30.000đ",
-        detail: "Một chiếc móc khóa dễ thương với những đường móc chắc chắn và phần mắt đáng yêu cùng với các họa tiết nhỏ cùng màu vô cùng đặt biệt thể hiện rõ sự đặc biệt của chiếc móc khóa.",
-    },
-
-
-    {
-        image: "https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-6/359810920_148471591591885_5156075647404144214_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5614bc&_nc_ohc=SlvjnHiN91sAX9ja-Pg&_nc_ht=scontent.fsgn5-6.fna&oh=00_AfDhXzDUd-LHHPY6EXJ8T4S5ohlZHepI5X-wcsv3cYEmAg&oe=652822B4",
-        name: "Móc khóa cỏ bốn lá",
-        price: "30.000đ",
-        detail: "Sản phẩm đem lại may mắn cho mọi nhà, với thiết kế dễ thương cùng những đường móc độc đáo chỉn chu.",
+        detail: "Sự kết hợp chua ngọt hòa quyện cùng lá trà hảo hạng đưa đem đến một thức uống vô cùng hợp với giới trẻ.",
     },
 
 
 ]
+
 const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
 });
@@ -74,12 +74,30 @@ document.getElementById("intro_img").src = product.image;
 document.getElementById("detail").innerHTML = product.detail;
 document.getElementById("price").innerHTML = product.price;
 
-function showMessage() {
-    var cf_dathang = confirm("Xác nhận đặt hàng!")
-    if (cf_dathang == true) {
-        alert("Đặt đồ thành công!")
-    } else {
-        alert("Đã hủy yêu cầu!")
+const buyBtn = document.getElementById("buy");
+const quantityInp = document.getElementById("quantity");
+buyBtn.addEventListener("click", () => {
+    // Lấy ra số lượng là giá trị của ô input có id là "quantity"
+    const quantity = Number(quantityInp.value.trim());
+
+    // Thêm sản phẩm với số lựng tương ứng vào giỏ hàng
+    const cart = JSON.parse(localStorage.getItem("cart")) || []; // Lấy ra danh sách giỏ hàng từ localStorage
+    const exist = cart.findIndex(item => item.id == id); // Kiểm tra xem sản phẩm muốn thêm đã tồn tại trong giỏ hàng hay chưa
+    if (exist < 0) { // Nếu chưa tồn tại
+        cart.push({ // Thêm sản phẩm vào giỏ hàng
+            id: id,
+            quantity: quantity
+        })
+
     }
-}
+    else { // Nếu đã tồn tại
+        cart[exist].quantity += quantity; // Cập nhật số lượng cho sản phẩm
+
+    }
+    localStorage.setItem("cart", JSON.stringify(cart));
+    alert("Đã thêm sản phẩm vào giỏ hàng");
+
+});
+
+
 

@@ -8,11 +8,27 @@
     <title>Product detail</title>
 
     <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
-    <div class="intro_box">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#product_box">Menu</a></li>
+            <li><a href="#contact_box">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
 
+
+
+        </ul>
+        <h1 id="name">B&C</h1>
+        <img class="logo" id="avatar"
+            src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/346040349_232566622734756_6209429405795207475_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=5ebaG19A1jUAX-ND6kK&_nc_ht=scontent.fsgn5-10.fna&oh=00_AfDvouA6ixHhqujJRI5MeeX92WUz5rqADs54tdLXu9DVng&oe=65281856"
+            alt="">
+    </nav>
+
+    <div class="intro_box">
         <h1 id="name"></h1>
         <div class="canhle">
             <div id="format">
@@ -23,18 +39,17 @@
             <div class="canhle2">
                 <h1 id="detail"></h1>
                 <p id="price"></p>
-                <button onclick="showMessage()">Đặt hàng</button>
-                <h2 class="slogan">Nhận móc theo yêu cầu</h2>
+                <div id="sl">
+                    Số lượng:
+                    <!-- Input nhập số, min = 1, khi tạo ra thì mang giá trị là 1 -->
+                    <input type="number" min="1" value="1" id="quantity">
+                </div>
+                <br>
+                <button id="buy">Đặt hàng</button>
+
             </div>
         </div>
-
-
     </div>
-
-
-
-
-
     <script src="detail.js"></script>
 </body>
 
