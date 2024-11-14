@@ -1,15 +1,40 @@
-body {
-    background-image: url("https://wallpapertag.com/wallpaper/full/c/d/e/339760-coffee-background-2880x1800-htc.jpg");
+body{
+    margin: 0%;
+    object-fit: cover;
+    background-image:url(https://img6.thuthuatphanmem.vn/uploads/2022/02/25/background-nhe-nhang-co-dien_085542240.jpg);
     background-size: cover;
-    background-color: #00000078;
-    background-blend-mode: multiply;
-}
+  
+  }
 
 img {
-    width: 100%;
+    width: 60%;
+    margin-left: 20%;
+    
 }
 button{
-    width: 400px;
+    width: 300px;
     height: 60px;
-    margin-left: 550px;
+    margin-left: 32%;
+    margin-bottom: 10px;
+    
+
+}
+#p{
+    
+    background-color: rgb(104, 97, 97);
+    width: 800px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+h1{
+    
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    
 }
