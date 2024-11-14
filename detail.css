@@ -1,15 +1,60 @@
 body{
-  background-image: url("https://wallpapertag.com/wallpaper/full/c/d/e/339760-coffee-background-2880x1800-htc.jpg");
+  object-fit: cover;
+  margin: 0%;
+  background-image:url(https://img6.thuthuatphanmem.vn/uploads/2022/02/25/background-nhe-nhang-co-dien_085542240.jpg);
   background-size: cover;
-  background-color: #00000078 ;
-  background-blend-mode: multiply;
 }
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-weight: 100;
+  font-size: 25px;
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 20px;
+}
+
+nav ul li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-align: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #ffffff;
+}
+
 
 .intro_box {
   border: 5px solid rgba(87, 77, 77, 0.493);
   border-radius: 20px;
   width: 900px;
-  height: 500px;
+  height: 400px;
   
   background-color: #ffffff;
   
@@ -29,12 +74,14 @@ body{
 
 }
 #detail{
-  margin-left: 30px;
-  font-size: 25px;
+  margin-left: 120px;
+  
+  font-size: 40px;
 }
 #name{
   margin-left: 200px;
   font-style: oblique;
+  color: #ffffff;
 
 }
 
@@ -64,3 +111,4 @@ button{
   margin-left: 150px;
   
 }
+

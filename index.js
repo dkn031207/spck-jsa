@@ -1,61 +1,61 @@
 const products = [
     {
-        image: "https://mcdonalds.vn/uploads/2018/mccafe/icedlatte.png",
-        name: "Cà phê sữa",
+        image: "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/348243716_626997382338733_3005908347221228644_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=EpQi--m0Q1IQ7kNvgFs2ZAC&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=AoT0qJT9yUUXSbmlPFnsF7A&oh=00_AYBraDQCZWdJbAYBtywpYZDYzbAtJtNeCMR8G1PJdYMs4g&oe=673BCC30",
+        name: "Hoa hướng dương",
         price: "20.000đ",
         detail: "Hương vị cà phê đậm đà hòa quyện cùng sữa thơm béo sẽ cho thực khách trải nghiệm tuyệt vời.",
     },
 
     {
-        image: "https://www.awrestaurants.co.id/assets/images/new-menus/Ice%20Choco.png",
-        name: "Cà phê đen",
-        price: "16.000đ",
-        detail: "Đậm đà vị cà phê nguyên chất cùng hương thơm tuyệt vời của hạt cà phê hảo hạng đậm đà tới giọt cuối cùng.",
-    },
-
-    {
-        image: "https://th.bing.com/th/id/R.f280fbc204173cf766d2e29aa39aaa16?rik=LMrGZq1cProZyw&pid=ImgRaw&r=0",
-        name: "Bạc xỉu",
+        image: "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/358685964_145713455201032_1338460349037685175_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=4_J-VI0RzroQ7kNvgGAThsf&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=ApVNAucJeur2rniGmsl9rtD&oh=00_AYDP5XQsQWbHfQopWiw4TotI_339G353QM1Plxp641Ww9w&oe=673BB250",
+        name: "Tiên cá heo",
         price: "20.000đ",
-        detail: "Hương vị cà phê đặc trưng cùng với hương sữa ngọt ngào sẽ đưa đến trải nghiệm không thể quên.",
+        detail: "Nèng tiên cá heo đúng nghĩa là đây chứ đâu",
     },
 
     {
-        image: "https://th.bing.com/th/id/OIP.4FipDzpz2Ki2vLHn0jwjBwAAAA?w=422&h=422&rs=1&pid=ImgDetMain",
-        name: "Cold brew",
-        price: "18.000đ",
-        detail: "Đậm đà nhưng nhẹ nhàng cho các tín đồ không thích quá đắng hay ngọt.",
+        image: "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/359810920_148471591591885_5156075647404144214_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LgE2NFc1MTgQ7kNvgHTpMsB&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=AqMxFLQQ0CMRLdZ9m1pl9fr&oh=00_AYByb49wynZEnLUOBALcyiJcmjeZoO6F0baeSMAWiU9jGg&oe=673BA774",
+        name: "Móc khóa cỏ 4 lá",
+        price: "20.000đ",
+        detail: "Lá thứ nhất đó là niềm hi vọng. Lá thứ hai là niềm tin. Lá thứ ba là tình yêu Và lá cuối cùng là sự may mắn",
     },
 
     {
-        image: "https://th.bing.com/th/id/OIP.nXLFkAcslhTJoyNT7mo8KAHaHa?rs=1&pid=ImgDetMain",
-        name: "Trà oolong",
-        price: "25.000đ",
-        detail: "Hương vị từ lá trà oolong nguyên chất hòa quyện với công thức trà bí truyền sẽ đem lại một cảm giác mát mẻ và dịu nhẹ lôi cuốn.",
+        image: "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/361288397_154006497705061_5630734603105265064_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kzUdYS0LGAMQ7kNvgEH4Pre&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=AmrIu3Xxi6Qvt1RlIc_1eVn&oh=00_AYBKQ4raa0NpUBNUi3iQ2GVjTxGTyiTKNn6NoNsFH4y1fg&oe=673BD6C4",
+        name: "Móc khóa hoa hồng",
+        price: "20.000đ",
+        detail: "Nhẹ nhàng và ngọt ngào",
     },
 
     {
-        image: "https://th.bing.com/th/id/R.d13ff393e2396963dd8605928d2be76a?rik=quh3jxQAEdtY%2bw&riu=http%3a%2f%2fmedia-cache-ec0.pinimg.com%2f736x%2fa9%2fe2%2f89%2fa9e289f43cfce632d70161ab0d64735b.jpg&ehk=IGC0lbqoXW6owUr%2b4%2fp6POu96%2betGP1VdQmwQHp4%2fBY%3d&risl=&pid=ImgRaw&r=0",
-        name: "Trà đào",
-        price: "18.000đ",
-        detail: "Hương trà đào thơm ngọt cùng một chút hương thơm từ trà, một thức uống dịu nhẹ cho mọi lứa tuổi.",
+        image: "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/355881945_136188352820209_370721710235478682_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ShaFlHVdzkoQ7kNvgHR0EaV&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=Abs1tAjLd6tRJfp9X93w2go&oh=00_AYBauw_m7sHADFGFh3qSoVRe5jeAIzE8tmLf0-jc08FKcQ&oe=673BCEED",
+        name: "Cài tóc con mèo",
+        price: "20.000đ",
+        detail: "Kẹp tóc mèo cutii!!",
     },
 
     {
-        image: "https://th.bing.com/th/id/OIP.uVoTFMCvQcvNveLrk0eVrgHaHa?rs=1&pid=ImgDetMain",
-        name: "Trà vải",
-        price: "18.000đ",
-        detail: "Vị thơm không thể chối từ từ trái vải chín ngon ngọt kết hợp cùng trà tinh khiết đứa đến một trải nghiệm ngọt ngào nhưng đầy mát mẻ.",
+        image: "https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/355643574_136186346153743_2043737170287463715_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=X9Nwg9Hn7v0Q7kNvgHwzLZp&_nc_zt=23&_nc_ht=scontent.fsgn5-10.fna&_nc_gid=ANNbCXFrrV7xyRwMcgcDn3W&oh=00_AYD8IspyCFovj0jaDQFbrC0DGbFqppAX67aemH2LCNcMhw&oe=673BDB78",
+        name: "Thỏ len",
+        price: "20.000đ",
+        detail: "Thỏ nhỏ, cuteee, xinh tươi",
+    },
+
+    {
+        image: "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/356051794_136188316153546_8317784307749451554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FzYDAOu-PVgQ7kNvgG4N1jL&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=AUCqEBKeL7FZwriPvrdfQeC&oh=00_AYBVzz2_MG9C2hjd1QENi1-C3mql5LIjwDCiaLNoe_kavw&oe=673BCE78",
+        name: "Trâu len",
+        price: "20.000đ",
+        detail: "Trâu len mạnh mẽ",
     },
 
 
 
 
     {
-        image: "https://th.bing.com/th/id/OIP.Hd-ZkyfUEVYMx8xU6wM6IgHaHa?rs=1&pid=ImgDetMain",
-        name: "Trà dâu",
-        price: "25.000đ",
-        detail: "Sự kết hợp chua ngọt hòa quyện cùng lá trà hảo hạng đưa đem đến một thức uống vô cùng hợp với giới trẻ.",
+        image: "https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/356130397_136188329486878_1826598413732415512_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=T0R4UlrCAwAQ7kNvgGp2F7B&_nc_zt=23&_nc_ht=scontent.fsgn5-3.fna&_nc_gid=A5k1AcfqQlDiVmoZrgkGYBi&oh=00_AYAZg0SLW8v8HO3kj2QxJcEKpG88tMUeydFZw2tQZClvCQ&oe=673BB2FF",
+        name: "Kẹp tóc dâu tây",
+        price: "20.000đ",
+        detail: "Chút ngọt ngào cho mái tóc của nàng",
     },
 
 
@@ -85,4 +85,4 @@ function showSlideAuto() {
 }
 showSlideAuto()
 
-
+//jfisdhff
